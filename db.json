@@ -17,6 +17,12 @@
       "mobile": "112233",
       "password": "112233",
       "id": 3
+    },
+    {
+      "name": "shikku",
+      "mobile": "1111",
+      "password": "1234",
+      "id": 4
     }
   ],
   "departments": [
@@ -156,6 +162,20 @@
       "doctorName": "Dr. Anjali Menon",
       "department": "Cardiology",
       "id": 4
+    },
+    {
+      "userId": 4,
+      "patient": "shikku",
+      "age": 29,
+      "phone": "1111",
+      "problem": "bnvhgvhgvhg",
+      "date": "2025-08-26",
+      "time": "10:00",
+      "token": 1,
+      "doctorId": 3,
+      "doctorName": "Dr. Priya Nair",
+      "department": "Dermatology",
+      "id": 5
     }
   ]
 }
