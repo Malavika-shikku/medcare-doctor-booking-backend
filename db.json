@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "mobile": "9999999999",
+      "password": "1234"
+    },
+    {
+      "name": "malavika",
+      "mobile": "1234567890",
+      "password": "adam@123",
+      "id": 2
+    },
+    {
+      "name": "Adam",
+      "mobile": "112233",
+      "password": "112233",
+      "id": 3
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Cardiology"
+    },
+    {
+      "id": 2,
+      "name": "Dermatology"
+    },
+    {
+      "id": 3,
+      "name": "Neurology"
+    },
+    {
+      "id": 4,
+      "name": "Orthopedics"
+    },
+    {
+      "id": 5,
+      "name": "Pediatrics"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Anjali Menon",
+      "departmentId": 1,
+      "department": "Cardiology",
+      "image": "https://segurancadotrabalhosempre.com/wp-content/uploads/2016/08/O6T8LS01.jpg",
+      "experience": 12
+    },
+    {
+      "id": 2,
+      "name": "Dr. Ramesh Iyer",
+      "departmentId": 3,
+      "department": "Neurology",
+      "image": "/images/doctor1.jpeg",
+      "experience": 10
+    },
+    {
+      "id": 3,
+      "name": "Dr. Priya Nair",
+      "departmentId": 2,
+      "department": "Dermatology",
+      "image": "/images/doctor3.jpg",
+      "experience": 8
+    },
+    {
+      "id": 4,
+      "name": "Dr. Varun Thomas",
+      "departmentId": 4,
+      "department": "Orthopedics",
+      "image": "https://thumbnails.yayimages.com/1600/1/7f7/17f724e.jpg",
+      "experience": 15
+    },
+    {
+      "id": 5,
+      "name": "Dr. Neha Gupta",
+      "departmentId": 5,
+      "department": "Pediatrics",
+      "image": "/images/doctor4.jpeg",
+      "experience": 9
+    },
+    {
+      "id": 6,
+      "name": "Dr. Diana Rose",
+      "departmentId": 5,
+      "department": "Pediatrics",
+      "image": "http://www.pngall.com/wp-content/uploads/2018/05/Doctor-PNG-Images.png",
+      "experience": 9
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Anitha",
+      "text": "Great doctors, very professional!"
+    },
+    {
+      "id": 2,
+      "author": "Rahul",
+      "text": "Easy booking process and friendly staff."
+    },
+    {
+      "id": 3,
+      "author": "Meera",
+      "text": "Best hospital experience I’ve had."
+    }
+  ],
+  "bookings": [
+    {
+      "userId": 2,
+      "patient": "malavika",
+      "age": 23,
+      "phone": "1234567890",
+      "problem": "vomiting",
+      "date": "2025-08-26",
+      "time": "12:00",
+      "token": 1,
+      "doctorId": 1,
+      "doctorName": "Dr. Anjali Menon",
+      "department": "Cardiology",
+      "id": 1
+    },
+    {
+      "name": "mala",
+      "phone": "112233",
+      "department": "",
+      "doctor": "",
+      "date": "",
+      "time": "10:00",
+      "problem": "jhjhyhgyg",
+      "id": 2
+    },
+    {
+      "name": "hh",
+      "phone": "njnjk",
+      "department": "",
+      "doctor": "",
+      "date": "",
+      "time": "10:00",
+      "problem": "bjbjb",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "patient": "Adam",
+      "age": 25,
+      "phone": "112233",
+      "problem": "bjbjgj",
+      "date": "2025-08-28",
+      "time": "10:00",
+      "token": 1,
+      "doctorId": 1,
+      "doctorName": "Dr. Anjali Menon",
+      "department": "Cardiology",
+      "id": 4
+    }
+  ]
+}
